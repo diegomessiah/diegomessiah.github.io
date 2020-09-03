@@ -16,15 +16,15 @@ minimal_mistakes_skin    : "contrast" #"default" # "air", "aqua", "contrast", "d
 
 # Site Settings
 locale                   : "en-US"
-title                    : "LazyWinAdmin"
+title                    : "Haissem"
 title_separator          : "-"
-name                     : "Francois-Xavier Cat"
+name                     : "Diego Messiah"
 description              : "Cloud, DevOps and Automation"
-url                      : https://lazywinadmin.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://diegomessiah.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : lazywinadmin/lazywinadmin.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : diegomessiah/diegomessiah.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/lazywinadmin-88x55.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     :  # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -32,7 +32,7 @@ comments:
   # receiver                : "https://lwacommentsfunc18954.azurewebsites.net/api/PostComment"
   provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : # lazywinadmin # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : # haissem # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -50,7 +50,7 @@ reCaptcha:
   siteKey                :
   secret                 :
 atom_feed:
-  path                   : 'https://feeds.feedburner.com/lazywinadmin' # blank (default) uses feed.xml
+  path                   : # blank (default) uses feed.xml
 search                   : true # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
@@ -63,14 +63,14 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification : 'cGasAvSObD3wRVyYrMyPEAIyGp3TeCL8DS69pC9dcwQ' #https://www.google.com/webmasters/tools/
-bing_site_verification   : '41C4B698DCF8E8CC8310802951961BF0' #https://www.bing.com/webmaster/configure/verify/ownership/?url=http://lazywinadmin.github.io/
+google_site_verification : '' #https://www.google.com/webmasters/tools/
+bing_site_verification   : '' #https://www.bing.com/webmaster/configure/verify/ownership/?url=http://lazywinadmin.github.io/
 yandex_site_verification :
 naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : lazywinadmin
+  username               : diegomessiah
 facebook:
   username               :
   app_id                 :
@@ -87,16 +87,16 @@ social:
 analytics:
   provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-23373830-3"
+    tracking_id          : ""
     anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
-  name             : "François-Xavier Cat"
+  name             : "Diego Messiah"
   avatar           : '/images/avatar/bio03.jpg' # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Cloud DevOps Engineer"
-  location         : "San Francisco Bay"
+  location         : "**"
   email            :
   links:
     - label: "Email"
