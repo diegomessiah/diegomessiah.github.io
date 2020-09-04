@@ -5,7 +5,7 @@ permalink: /p/scripts.html
 toc: true
 ---
 
-**Important!** This list is not up to date. Most of my projects are now hosted [on Github](https://github.com/lazywinadmin?tab=repositories)! 🕵
+**Important!** This list is not up to date. Most of my projects are now hosted [on Github](https://github.com/diegomessiah?tab=repositories)! 🕵
 {: .notice--info}
 
 <ul>
