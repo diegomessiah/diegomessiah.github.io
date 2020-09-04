@@ -4,10 +4,7 @@ title: "Python - Calculate Storage"
 excerpt: "This article explain how write script than calculate weight storage"
 permalink:
 tags:
-  - azure
-  - terraform
-  - automationaccount
-  - powershell
+  - Python
 categories:
 published: true
 comments: true
