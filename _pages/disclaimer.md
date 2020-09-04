@@ -1,5 +1,5 @@
 ---
-title: disclaimer
+title: Disclaimer
 layout: single
 permalink: /disclaimer.html
 ---
