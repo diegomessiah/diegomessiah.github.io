@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Python - Cheat Sheet - Conditionals"
-excerpt: ""
+excerpt: "This handy cheat sheet gives you all the information you need at a glance."
 permalink:
 tags: 
   - Python
