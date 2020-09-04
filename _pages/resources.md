@@ -6,7 +6,7 @@ toc: true
 toc_sticky: true
 ---
 
-**Last update:** 2019/05/03 - Update markdown :thumbsup:
+**Last update:** 04/09/2020 - Update markdown :thumbsup:
 {: .notice--info}
 
 # PowerShell
@@ -34,9 +34,7 @@ toc_sticky: true
   * [PowerShell.com Monthly PowerTips Ebooks](http://powershell.com/cs/media/28/default.aspx)
 
 ## Blogs/References/Resources
-  * [Windows PowerShell Language Specification Version 2.0](http://www.microsoft.com/en-us/download/details.aspx?id=9706)
-  * [Windows PowerShell Language Specification Version 3.0](http://www.microsoft.com/en-ca/download/details.aspx?id=36389)
-  * [Windows PowerShell 4.0 and Other Quick Reference Guides](http://www.microsoft.com/en-us/download/details.aspx?id=42554)
+  * [Lazy Admin](https://www.thelazyadministrator.com/)
   * [PowerShell.org Free Ebooks](http://powershell.org/wp/ebooks/)
   * [Windows PowerShell Survival Guide](http://social.technet.microsoft.com/wiki/contents/articles/183.windows-powershell-survival-guide.aspx)
 
@@ -200,16 +198,10 @@ One of the feature of this tool, allows you to make the NIC blinks! This come ve
   * [Searching Active Directory with Windows PowerShell](http://technet.microsoft.com/en-us/library/ff730967.aspx)
 * Online Learning
   * [Code Academy](http://www.codecademy.com/)
-  * [LearnStreet](https://www.learnstreet.com/) (learn Java, Javascript, Ruby, Python
+  * [LearnStreet](https://www.learnstreet.com/) - learn Java, Javascript, Ruby, Python -
   * [Edx](https://www.edx.org/)
   * [KhanAcademy](https://www.khanacademy.org/)
-  * [Udacity](https://www.udacity.com/courses#!/all)
   * [MIT OpenCourseware](http://ocw.mit.edu/courses/)
-  * [Microsoft Virtual Academy](http://www.microsoftvirtualacademy.com/) (will be decomm Q1 2019)
   * [Command Line Crash course](http://cli.learncodethehardway.org/book/)
   * [Learn Linux the hard way](http://nixsrv.com/llthw)
   * [Coursera](https://www.coursera.org/)
-
-# Music
-
-* [Codingmusic](/codingmusic)
