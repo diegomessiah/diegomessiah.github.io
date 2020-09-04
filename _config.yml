@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Diego Messiah"
-  avatar           : '/images/avatar/bio03.jpg' # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : '/images/avatar/diego-messiah.jpg' # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Information Security Engineer"
   location         : "IL"
   email            :
