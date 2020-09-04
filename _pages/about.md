@@ -12,7 +12,7 @@ My name is Diego Messiah, I am a teaching enthusiast and problem solver.
 
 After many years i worked as a Graphic Designer for clients around the world in one of my trips I met a friend of the family who is dedicated to Computer Security in Banks.
 
-It was simple, I had fallen in love with this profession, I dusted off my old notes on operating systems, took networking courses and accreditations that would allow me to enter this world.
+Its was simple, I had fallen in love with this profession, I dusted off my old notes on operating systems, took networking courses and accreditations that would allow me to enter this world.
 
 After a year I found myself in a middle Cloud Computing Service Provider Company where I had to support all the IT systems (Servers, Desktop, Phones, Virtualization, ...), take care of the helpdesk tickets, resolve complicate and urgent issues, etc...
 
