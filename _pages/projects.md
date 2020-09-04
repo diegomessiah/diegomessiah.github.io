@@ -9,15 +9,15 @@ toc: true
 {: .notice--info}
 
 <ul>
-<li><b>Graphical User Interface (GUI) PowerShell Script</b></li>
+<li><b>Office365 - PowerShell Script</b></li>
 <ul>
-<li><a href="http://www.lazywinadmin.com/p/scripts.html#ADUserUnlocker">Active Directory User Unlocker</a>(WinForm)</li>
-<li><a href="http://www.lazywinadmin.com/p/scripts.html#LazyTs">LazyTS </a>(WinForm)</li>
-<li><a href="http://www.lazywinadmin.com/p/scripts.html#LazyWinAdmin">LazyWinAdmin Tool</a>(WinForm)</li>
-<li><a href="http://www.lazywinadmin.com/p/scripts.html#TutorialCreatingaBasicGUI">Tutorial -Creating a GUI</a>(WinForm)</li>
-<li><a href="http://www.lazywinadmin.com/p/scripts.html#TutorialToolMaking">Tutorial - ToolMaking</a>(WinForm)</li>
-<li><a href="http://www.lazywinadmin.com/p/scripts.html#TutorialListViewControl">Tutorial - ListView Control- Fill my second column</a>(WinForm)</li>
-<li><a href="http://www.lazywinadmin.com/p/scripts.html#TutorialDataGridViewSorting">Tutorial - DataGridView Control- Sorting</a>(WinForm)</li>
+<li><a href="#ADUserUnlocker">Password Expire Notification Office 365</a></li>
+<li><a href="#bulk_users">Assign License Bulk Users (not hybrit)</a></li>
+#<li><a href="http://www.lazywinadmin.com/p/scripts.html#LazyWinAdmin">LazyWinAdmin Tool</a>(WinForm)</li>
+#<li><a href="http://www.lazywinadmin.com/p/scripts.html#TutorialCreatingaBasicGUI">Tutorial -Creating a GUI</a>(WinForm)</li>
+#<li><a href="http://www.lazywinadmin.com/p/scripts.html#TutorialToolMaking">Tutorial - ToolMaking</a>(WinForm)</li>
+#<li><a href="http://www.lazywinadmin.com/p/scripts.html#TutorialListViewControl">Tutorial - ListView Control- Fill my second column</a>(WinForm)</li>
+#<li><a href="http://www.lazywinadmin.com/p/scripts.html#TutorialDataGridViewSorting">Tutorial - DataGridView Control- Sorting</a>(WinForm)</li>
 </ul>
 <li><b><u>Modules</u></b></li>
 <ul>
