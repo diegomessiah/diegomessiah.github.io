@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Haissem"
 title_separator          : "-"
 name                     : "Diego Messiah"
-description              : "Cloud, DevOps and Automation"
+description              : "Cloud, Security and Automation"
 url                      : https://diegomessiah.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : diegomessiah/diegomessiah.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -32,7 +32,7 @@ comments:
   # receiver                : "https://lwacommentsfunc18954.azurewebsites.net/api/PostComment"
   provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : # haissem # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : haissem # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -95,8 +95,8 @@ analytics:
 author:
   name             : "Diego Messiah"
   avatar           : '/images/avatar/bio03.jpg' # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Cloud DevOps Engineer"
-  location         : "**"
+  bio              : "Information Security Engineer"
+  location         : "IL"
   email            :
   links:
     - label: "Email"
