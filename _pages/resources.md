@@ -81,69 +81,6 @@ toc_sticky: true
   * [Getting Started with PowerShell Desired State Configuration (DSC)](http://channel9.msdn.com/Series/Getting-Started-with-PowerShell-Desired-State-Configuration-DSC) (2015/01)
   * [Advanced PowerShell Desired State Configuration (DSC) and Custom Resources](https://channel9.msdn.com/Series/Advanced-PowerShell-Desired-State-Configuration-DSC-and-Custom-Resources) (2015/01)
 
-## Videos
-
-* Microsoft Virtual Academy
-  * [Getting Started with PowerShell 3.0 Jump Start](http://www.microsoftvirtualacademy.com/training-courses/getting-started-with-powershell-3-0-jump-start) (2013/07)
-  * [Advanced Tools Scripting with PowerShell 3.0 Jump Start](http://www.microsoftvirtualacademy.com/training-courses/advanced-tools-scripting-with-powershell-3-0-jump-start) (2013/07)
-* PowerShell Summit 2013 North America
-  * [Device Management With PowerShell - Ricardo Mendes](https://www.youtube.com/watch?v=0NeEU3FHp8I)
-  * [Creating a Complex and Reusable HTML Reporting Structure - Alan Renouf](https://www.youtube.com/watch?v=XsnE_OQGvdo)
-  * [How Secure Can You Be – Jeff Hicks](http://youtu.be/iV6cYsQDL0Y)
-  * [Standards Based Hardware Management – Steve Lee](http://youtu.be/qSE06GkQWV4)
-  * [Workshop – Automating for DevOps – Kenneth Hansen and Hemant Mahawar](http://youtu.be/7C53pawPw3Y)
-  * [CIM Sessions – Richard Siddaway](http://youtu.be/KFA-zSojxqw)
-  * [PowerShell Web Access – Richard Siddaway](http://youtu.be/EloMKpvfES8)
-  * [Sapien PowerShell Products – David Corrales](http://youtu.be/3deY6e6Npzo)
-  * [What I learned Judging 5000 Scripts – Ed Wilson](http://youtu.be/xZtapxf1ytI)
-  * [PowerShell Events – Richard Siddaway](http://youtu.be/Ahvs1rGPk1s)
-  * [Write Modules, Not Scripts – Ed Wilson](http://youtu.be/U_niW85TtJE)
-  * [PoshMon – PowerShell Does Performance Counters – Ed Wilson](http://youtu.be/Y8IbadEHoPg)
-  * [Configuring Your PowerShell Workflow Environment – Aleksandar Nikolic](http://youtu.be/1XuB71tLNvg)
-  * [Practical PowerShell Integration from Bare Metal to the Cloud – Alan Renouf](http://youtu.be/msHGx-mxWJA)
-  * [Source Control for IT Pros – Andy Schneider](http://youtu.be/eAZ-agh182g)
-  * [Creating HTML Reports with Style – Jeff Hicks](http://youtu.be/pL_Ry5LzX3w)
-  * [Remoting Configuration Deep Dive – Don Jones](http://youtu.be/-ERyfmOmyoI)
-  * [Advanced Network Scripting with PowerShell – Lee Holmes](http://youtu.be/jMVBN5V0G4Y)
-  * [Build Your Demo Environment with Windows PowerShell – Aleksandar Nikolic](http://youtu.be/GXkLtEOM-DM)
-* PowerShell Summit 2014 North America
-  * [PowerShell and Visio = Crazy Delicious](https://vimeo.com/94408016)
-  * [VisioAutomation - module: VisioPS](https://visioautomation.codeplex.com/)
-  * [WSMan Cmdlets - Richard Siddaway](http://youtu.be/j3IQeWlxJiI?list=PLfeA8kIs7CoeDFBKqLcPz5eU1B2_F9MgM)
-  * [The Seven Secrets of CIM - Brian Wilhite](http://youtu.be/0t_PvMMeJKQ?list=PLfeA8kIs7CoeDFBKqLcPz5eU1B2_F9MgM)
-* PowerShell Summit 2014 Europe
-  * [Monad Manifest Revisited - Jeffrey Snover](https://www.youtube.com/watch?v=j0EX5R2nnRI&amp;list=UUqIw7UUwC5fUBFXYX68aMrQ)
-  * Desired State Configuration I - Steve Murawski[](https://www.youtube.com/watch?v=hxAlnqnWLC4&amp;list=UUqIw7UUwC5fUBFXYX68aMrQ)
-  * [PowerShell Repositories Unleashed - Dan Harman](https://www.youtube.com/watch?v=hxAlnqnWLC4&amp;list=UUqIw7UUwC5fUBFXYX68aMrQ)
-  * [Automating Amazon web Services with PowerShell - Mike Pfeiffer](http://youtu.be/RRyoTYMZRlM?list=PLfeA8kIs7Coehjg9cB6foPjBojLHYQGb_)
-  * [Talking With Neanderthals: Sophisticated Techniques of Plain Text Parsing - Tobias Weltner](http://youtu.be/Hkzd8spCfCU?list=UUqIw7UUwC5fUBFXYX68aMrQ)
-  * [Do custom objects dream about ETS (Extended Type System)? - Bartosz Bielawsk](http://youtu.be/ae8uBxIwhWE?list=UUqIw7UUwC5fUBFXYX68aMrQ)
-  * [Desired State Configuration II - Steve Murawski](http://youtu.be/zxAFPxXBCUs?list=UUqIw7UUwC5fUBFXYX68aMrQ)
-* PowerShell User Groups
-  * 2014/01 - PowerShell Virtual UG - (https://www.youtube.com/watch?v=EN8eJA9rpXw)Steven Murawski on Desired State Configuration
-  * 2014/02 - PowerShell Virtual UG - (https://www.youtube.com/watch?v=R8To09xrBMo)Doug Finke on PowerShell Parser and AST
-* TechEd 2013 North America
-  * [Desired State Configuration in Windows Server 2012 R2 PowerShell](http://channel9.msdn.com/Events/TechEd/NorthAmerica/2013/MDC-B302#fbid=yGYCAVFqVxB)
-  * [PowerShell Unplugged](http://channel9.msdn.com/Events/TechEd/NorthAmerica/2013/MDC-B340#fbid=)
-* TechEd 2014 North America
-  * [Windows PowerShell Unplugged with Jeffrey Snover](http://channel9.msdn.com/Events/TechEd/NorthAmerica/2014/DCIM-B318#fbid=)
-  * [Transform the Datacenter: Making the Promise of Connected Clouds a Reality](http://channel9.msdn.com/Events/TechEd/NorthAmerica/2014/FDN06#fbid=)
-  * [Microsoft System Center 2012 Configuration Manager: MVP Experts Panel (PowerShell and ConfigMgr)](http://channel9.msdn.com/Events/TechEd/NorthAmerica/2014/PCIT-B410#fbid=)
-  * [PowerShell Desired State Configuration and DevOps in Microsoft Azure](http://channel9.msdn.com/Events/TechEd/NorthAmerica/2014/DCIM-B324#fbid=)
-  * [TWC: Sysinternals Primer: TechEd 2014 Edition](http://channel9.msdn.com/Events/TechEd/NorthAmerica/2014/DCIM-B340#fbid=)
-  * [Windows PowerShell Best Practices and Patterns: Time to Get Serious - Don Jones](http://channel9.msdn.com/Events/TechEd/NorthAmerica/2014/DCIM-B418#fbid=)
-  * [A Practical Overview of Desired State Configuration - Don Jones, Jeffrey Snover](http://channel9.msdn.com/Events/TechEd/NorthAmerica/2014/DCIM-B417#fbid=)
-  * [JitJea: A Windows PowerShell Toolkit to Secure a Post-Snowden World - Jeffrey Snover](http://channel9.msdn.com/Events/TechEd/NorthAmerica/2014/DCIM-B362#fbid=)
-* Other Videos
-  * [PowerEvents: Introduction to PowerEvents](http://youtu.be/YKKRNDSpyH8)
-  * [PowerEvents - Creating WMI Event Filters](http://youtu.be/xagrmrN8GsM)
-  * [PowerEvents: WMI Event Consumers](http://youtu.be/r5LRAmRWEb4)
-  * [PowerEvents: WMI Event Bindings](http://youtu.be/yR9xDdI_lS0)
-  * [Bruce Payette - PowerShell Workflows](http://youtu.be/qeV4Qmce2Dk)
-  * [Creating HTML Reports with PowerShell - Jeffery Hicks (2013/08/26)](http://youtu.be/QdK3qM5jnYw)
-  * [Turn Command-Line Tools into PowerShell Tools - Jeffery Hicks (2012/03/29)](http://youtu.be/MmGACEX2y3s)
-  * [Defcon 21 - PowerPwning: Post-Exploiting By Overpowering PowerShell - Joseph Bialek (2013/11/16)](https://www.youtube.com/watch?v=OAd68_SYQc8)
-
 #  System Center Configuration Manager (SCCM/ConfigMgr)
 
 * [Technet - Developper Network - Configuration Manager Reference](http://msdn.microsoft.com/en-us/library/hh948405.aspx)
