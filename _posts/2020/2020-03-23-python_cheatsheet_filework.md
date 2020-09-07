@@ -34,30 +34,66 @@ classes: wide
 
 This handy cheat sheet gives you all the information you need at a glance. 
 
-### Comparison operators
+### Module OS
+- Remove file
 ```
-a == b: a is equal to b
-a != b: a is different than b
-a < b: a is smaller than b
-a <= b: a is smaller or equal to b
-a > b: a is bigger than b
-a >= b: a is bigger or equal to b
+>>> import os
+>>> os.remove("filename")
 ```
+- Rename file
+```
+>>> import os
+>>> os.rename("actual_name", "new_name")
+```
+
+
+### Module OS.Path
+- Check if file exist
+```
+>>> import os
+>>> os.path.exists("Filename" or "Path")
+Return Bolean
+```
+- Size of file
+```
+>>> import os
+>>> os.path.getsize("Filename" or "Path")
+Return Size in bytes
+```
+- Last modification 
+```
+>>> import os
+>>> os.path.getmtime("Filename" or "Path")
+Return TimeStamp
+```
+<b>Remember:  Timestamp, it represents the number of seconds since January 1st, 1970.</b>
+-- Convert TimeStamp to Date 
+```
+>>> import os
+>>> import datetime
+>>> timestamp = os.path.getmtime("Filename" or "Path")
+>>> file_date_time = datetime.fromtimestamp(timestamp)
+# Convert timestamp to Date
+## Type Mon Sep 30 07:06:05 2013
+>>> d = date_time.strftime("%c")
+print("Date:", d)	
+## Type Date 09/30/13
+>>> d = date_time.strftime("%x")
+print("Date :", d)
+## Type Hour 07:06:05
+>>> d = date_time.strftime("%X")
+print("Date :", d)
+```
+- Get Absolute Path
+```
+>>> import os
+>>> os.path.abspath("filename" or "path)
+Return 'Path'
+```
+
 ### More Information 
 Check out the following links for more information:
-- [Module OS] (https://docs.python.org/3/library/os.html)
-- https://docs.python.org/3/library/os.path.html
-- https://en.wikipedia.org/wiki/Unix_time
-### Branching blocks
+- <a href="https://docs.python.org/3/library/os.html" target="_blank">Module OS</a>
+- <a href="https://docs.python.org/3/library/os.path.html" target="_blank">Module OS.Path</a>
+- <a href="https://en.wikipedia.org/wiki/Unix_time" target="_blank">TimeStamp</a>
 
-In Python, we branch our code using if, else and elif. This is the branching syntax:
-```
-1234567
-if condition1:
-	if-block
-elif condition2:
-	elif-block
-else:
-	else-block
-```
-<b>Remember: The if-block will be executed if condition1 is True. The elif-block will be executed if condition1 is False and condition2 is True. The else block will be executed when all the specified conditions are false. </b>
