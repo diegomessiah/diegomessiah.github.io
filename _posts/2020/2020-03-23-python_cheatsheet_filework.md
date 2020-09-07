@@ -67,7 +67,8 @@ Return Size in bytes
 Return TimeStamp
 ```
 <b>Remember:  Timestamp, it represents the number of seconds since January 1st, 1970.</b>
-</br>Convert TimeStamp to Date 
+
+Convert TimeStamp to Date 
 ```
 >>> import os
 >>> import datetime
