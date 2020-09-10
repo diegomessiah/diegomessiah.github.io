@@ -36,27 +36,27 @@ Link : <a href="https://github.com/diegomessiah/Office_365/blob/master/Device_Li
 Author:   <a href="https://github.com/diegomessiah" target="_blank">Diego Messiah</a>
 
 First Part - Connection to the Tenant
-'''
+```
  $credentials = Get-Credential -Credential UserAdmin@Company.com
  Write-Output "Getting the Exchange Online cmdlets"
     $session = New-PSSession -ConnectionUri https://outlook.office365.com/powershell-liveid/ `
         -ConfigurationName Microsoft.Exchange -Credential $credentials `
         -Authentication Basic -AllowRedirection
     Import-PSSession $session
-'''
+```
 Second Part - Setup Variable and CSV
-'''
+```
 #Location of CSV
 $csv = ".\MobileDevices.csv" 
 $results = @()
 #The default quota is for 1000 items
 $mailboxUsers = get-mailbox -resultsize unlimited
 $mobileDevice = @()
-'''
+```
 
 Third Part - Get the information
 
-'''
+```
 foreach($user in $mailboxUsers)
 {
 $UPN = $user.UserPrincipalName
@@ -88,14 +88,13 @@ $mobileDevices = Get-MobileDevice -Mailbox $UPN
           $results += New-Object psobject -Property $properties
       }
 }
-'''
+```
 Fourth Part - Order the info
-'''
+```
 $results | Select-Object Name,UPN,FriendlyName,DisplayName,ClientType,ClientVersion,DeviceId,DeviceMobileOperator,DeviceModel,DeviceOS,DeviceTelephoneNumber,DeviceType,FirstSyncTime,UserDisplayName | Export-Csv -notypeinformation -Path $csv
-'''
+```
 Last Part and not less important - Close the connection
-'''
+```
 Remove-PSSession $session
-'''
+```
 The complete script is in <a href="https://github.com/diegomessiah/Office_365/blob/master/Device_List_Mobile.ps1" target="_blank">My Office 365 Repository</a>
-
