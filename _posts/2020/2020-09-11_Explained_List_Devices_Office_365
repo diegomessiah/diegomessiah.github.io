@@ -26,7 +26,8 @@ foreach($user in $mailboxUsers)
 {
 $UPN = $user.UserPrincipalName
 $displayName = $user.DisplayName
- 
+
+#Get-MobileDevice - https://docs.microsoft.com/en-us/powershell/module/exchange/get-mobiledevice?view=exchange-ps
 $mobileDevices = Get-MobileDevice -Mailbox $UPN
        
       foreach($mobileDevice in $mobileDevices)
@@ -34,6 +35,7 @@ $mobileDevices = Get-MobileDevice -Mailbox $UPN
           Write-Output "Getting info about a device for $displayName"
           $properties = @{
           Name = $user.name
+          # User Principal Name 
           UPN = $UPN
           DisplayName = $displayName
           FriendlyName = $mobileDevice.FriendlyName
