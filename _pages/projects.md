@@ -9,18 +9,15 @@ toc: true
 {: .notice--info}
 
 <h2>Office365</h2>
+<u>Download:</u><a href="https://github.com/diegomessiah/Office_365" target="_blank"> My Office 365 Repository</a>
 <h3>IT</h3>
 **Password Expire Notification Office 365**
 
 Purpose:  This script send notification about password expire when user password due to expire
 
-<u>Download:</u><a href="https://github.com/diegomessiah/Office_365/blob/master/Expire_Notification.ps1" target="_blank">Github</a>
-
 **Assign License Bulk Users (not hybrit)**
 
 Purpose:  This script change old license's users to new license (bulk users not hybrit 365)
-
-<u>Download:</u><a href="https://github.com/diegomessiah/Office_365/blob/master/bulk_license.ps1" target="_blank">Github</a><br />
 
 <h3>Monitoring</h3>
 
