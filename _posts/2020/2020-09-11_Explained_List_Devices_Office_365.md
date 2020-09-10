@@ -4,7 +4,8 @@ title: "Explained : List Devices connected to Office 365 Mailbox"
 excerpt: "This article explain how writed script to get list of devices connected to Mailbox (Office 365)"
 permalink:
 tags:
-  - Python
+  - Office 365
+  - Explained  
 categories:
 published: true
 comments: true
