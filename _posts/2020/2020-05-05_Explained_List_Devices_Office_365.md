@@ -62,7 +62,8 @@ foreach($user in $mailboxUsers)
 $UPN = $user.UserPrincipalName
 $displayName = $user.DisplayName
 
-#Get-MobileDevice - https://docs.microsoft.com/en-us/powershell/module/exchange/get-mobiledevice?view=exchange-ps
+#Get-MobileDevice
+#Check API https://docs.microsoft.com/en-us/powershell/module/exchange/get-mobiledevice?view=exchange-ps
 $mobileDevices = Get-MobileDevice -Mailbox $UPN
        
       foreach($mobileDevice in $mobileDevices)
