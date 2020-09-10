@@ -25,7 +25,7 @@ toc_icon: "terminal"
 ---
 
 {% capture mynote%}
-**Test environment** Python 3.7
+**Test environment** Powershell v.5
 {% endcapture %}
 {{mynote}}{: .notice--info}
 
