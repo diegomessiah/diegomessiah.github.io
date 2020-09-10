@@ -29,8 +29,10 @@ toc_icon: "terminal"
 {% endcapture %}
 {{mynote}}{: .notice--info}
 
-Script to get List of devices connected to Mailbox (Office 365) explained
+## Script to get List of devices connected to Mailbox (Office 365) explained
+
 Link : <a href="https://github.com/diegomessiah/Office_365/blob/master/Device_List_Mobile.ps1" target="_blank">My Office 365 Repository</a>
+
 Author:   <a href="https://github.com/diegomessiah" target="_blank">Diego Messiah</a>
 
 First Part - Connection to the Tenant
