@@ -1,3 +1,33 @@
+---
+layout: single
+title: "Explained : List Devices connected to Office 365 Mailbox"
+excerpt: "This article explain how writed script to get list of devices connected to Mailbox (Office 365)"
+permalink:
+tags:
+  - Python
+categories:
+published: true
+comments: true
+header:
+  teaserlogo:
+  teaser: ''
+  image: images/headers/mountain01_1920x500.jpg
+  caption:
+gallery:
+  - image_path: ''
+    url: ''
+    title: ''
+toc: true
+toc_label: "Table of content"
+toc_sticky: true
+toc_icon: "terminal"
+---
+
+{% capture mynote%}
+**Test environment** Python 3.7
+{% endcapture %}
+{{mynote}}{: .notice--info}
+
 Script to get List of devices connected to Mailbox (Office 365) explained
 Link : <a href="https://github.com/diegomessiah/Office_365/blob/master/Device_List_Mobile.ps1" target="_blank">My Office 365 Repository</a>
 Author:   <a href="https://github.com/diegomessiah" target="_blank">Diego Messiah</a>
