@@ -53,7 +53,9 @@ $results = @()
 $mailboxUsers = get-mailbox -resultsize unlimited
 $mobileDevice = @()
 '''
+
 Third Part - Get the information
+
 '''
 foreach($user in $mailboxUsers)
 {
