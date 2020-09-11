@@ -94,7 +94,7 @@ Fourth Part - Order the info
 ```
 $results | Select-Object Name,UPN,FriendlyName,DisplayName,ClientType,ClientVersion,DeviceId,DeviceMobileOperator,DeviceModel,DeviceOS,DeviceTelephoneNumber,DeviceType,FirstSyncTime,UserDisplayName | Export-Csv -notypeinformation -Path $csv
 ```
-Last Part and not less important - Close the connection
+And last but not least - Close the connection
 ```
 Remove-PSSession $session
 ```
