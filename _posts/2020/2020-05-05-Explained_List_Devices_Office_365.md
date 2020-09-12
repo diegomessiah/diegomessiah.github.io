@@ -31,13 +31,15 @@ toc_icon: "terminal"
 
 ## Script to get List of devices connected to Mailbox (Office 365) explained
 
+This script returns all the Exchange ActiveSync mobile devices that are users has used that are associated with their mailboxes.
+
 Link : <a href="https://github.com/diegomessiah/Office_365/blob/master/Device_List_Mobile.ps1" target="_blank">My Office 365 Repository</a>
 
 Author:   <a href="https://github.com/diegomessiah" target="_blank">Diego Messiah</a>
 
 First Part - Connection to the Tenant
 ```
- $credentials = Get-Credential -Credential UserAdmin@Company.com
+ $credentials = Get-Credential -Credential Admin@ACME.com
  Write-Output "Getting the Exchange Online cmdlets"
     $session = New-PSSession -ConnectionUri https://outlook.office365.com/powershell-liveid/ `
         -ConfigurationName Microsoft.Exchange -Credential $credentials `
@@ -56,35 +58,35 @@ $mobileDevice = @()
 
 Third Part - Get the information
 
+We get relevant information like UPN (User ID or User Principal Name), Type of program, First Sync Time (Date and hour of the mailbox first sync)
+
+
 ```
 foreach($user in $mailboxUsers)
 {
 $UPN = $user.UserPrincipalName
-$displayName = $user.DisplayName
 
 #Get-MobileDevice
-#Check API https://docs.microsoft.com/en-us/powershell/module/exchange/get-mobiledevice?view=exchange-ps
 $mobileDevices = Get-MobileDevice -Mailbox $UPN
        
       foreach($mobileDevice in $mobileDevices)
       {
           Write-Output "Getting info about a device for $displayName"
           $properties = @{
+          Write-Output "Getting Name"
           Name = $user.name
-          # User Principal Name 
+          UserDisplayName = $mobileDevice.UserDisplayName
           UPN = $UPN
-          DisplayName = $displayName
-          FriendlyName = $mobileDevice.FriendlyName
           ClientType = $mobileDevice.ClientType
-          ClientVersion = $mobileDevice.ClientVersion
-          DeviceId = $mobileDevice.DeviceId
-          DeviceMobileOperator = $mobileDevice.DeviceMobileOperator
           DeviceModel = $mobileDevice.DeviceModel
           DeviceOS = $mobileDevice.DeviceOS
           DeviceTelephoneNumber = $mobileDevice.DeviceTelephoneNumber
-          DeviceType = $mobileDevice.DeviceType
           FirstSyncTime = $mobileDevice.FirstSyncTime
-          UserDisplayName = $mobileDevice.UserDisplayName
+          IsValid = $mobileDevice.IsValid
+          ExchangeObjectId = $mobileDevice.ExchangeObjectId 
+          IsManaged = $mobileDevice.IsManaged
+          IsCompliant = $mobileDevice.IsCompliant
+          IsDisabled = $mobileDevice.IsDisabled
           }
           $results += New-Object psobject -Property $properties
       }
@@ -92,7 +94,7 @@ $mobileDevices = Get-MobileDevice -Mailbox $UPN
 ```
 Fourth Part - Order the info
 ```
-$results | Select-Object Name,UPN,FriendlyName,DisplayName,ClientType,ClientVersion,DeviceId,DeviceMobileOperator,DeviceModel,DeviceOS,DeviceTelephoneNumber,DeviceType,FirstSyncTime,UserDisplayName | Export-Csv -notypeinformation -Path $csv
+$results | Select-Object Name,UserDisplayName,UPN,ClientType,DeviceModel,DeviceOS,DeviceTelephoneNumber,FirstSyncTime,IsValid,ExchangeObjectId,IsManaged,IsCompliant,IsDisabledName | Export-Csv -notypeinformation -Path $csv
 ```
 And last but not least - Close the connection
 ```
