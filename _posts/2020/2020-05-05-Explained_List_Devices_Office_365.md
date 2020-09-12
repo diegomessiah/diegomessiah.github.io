@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Explained : List Devices connected to Office 365 Mailbox"
+title: "Explained : Get List of devices connected to Mailbox (Office 365)"
 excerpt: "This article explain how writed script to get list of devices connected to Mailbox (Office 365)"
 permalink:
 tags:
