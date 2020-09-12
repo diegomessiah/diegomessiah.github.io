@@ -46,7 +46,7 @@ First Part - Connection to the Tenant
         -Authentication Basic -AllowRedirection
     Import-PSSession $session
 ```
-Second Part - Setup Variable and CSV
+Second Part - Setup Variable and CSV.
 ```
 #Location of CSV
 $csv = ".\MobileDevices.csv" 
