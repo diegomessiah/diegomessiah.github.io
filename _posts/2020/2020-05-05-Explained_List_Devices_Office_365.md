@@ -65,15 +65,13 @@ We get relevant information like UPN (User ID or User Principal Name), Type of p
 foreach($user in $mailboxUsers)
 {
 $UPN = $user.UserPrincipalName
-
 #Get-MobileDevice
 $mobileDevices = Get-MobileDevice -Mailbox $UPN
-       
+
       foreach($mobileDevice in $mobileDevices)
       {
-          Write-Output "Getting info about a device for $displayName"
+          Write-Output "Getting info about a device for $user"
           $properties = @{
-          Write-Output "Getting Name"
           Name = $user.name
           UserDisplayName = $mobileDevice.UserDisplayName
           UPN = $UPN
