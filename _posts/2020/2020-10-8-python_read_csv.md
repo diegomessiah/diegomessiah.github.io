@@ -54,6 +54,7 @@ with open('flowers.csv') as csv_file:
     line_count = 0
     for row in csv_reader:
         print(f'\t{a row[0]} {row[1]} is {row[3]}')
+# print - a carnation pink is annual
 ```
 ### Using csv.DictReader():
 ```
@@ -64,4 +65,5 @@ with open('flowers.csv') as csv_file:
     line_count = 0
     for row in csv_reader:
         print(f'\t{a row["name"]} {row["color"]} is {row["type"]}')
+# print - a carnation pink is annual
 ```
