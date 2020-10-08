@@ -37,6 +37,7 @@ There are two ways to read data from a CSV file using csv. The first method uses
 * csv.DictReader() on the other hand is friendlier and easy to use beacuse convert the rows in a Dictionary.
 
 CSV - flower.csv:
+
     name,color,type
     carnation,pink,annual
     daffodil,yellow,perennial
