@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Python - Read n' Write CSV"
+title: "Python - Read CSV file"
 excerpt: "This handy cheat sheet gives you all the information you need at a glance."
 permalink:
 tags: 
