@@ -124,7 +124,7 @@ One of the feature of this tool, allows you to make the NIC blinks! This come ve
 ## Online Tools
 
 * Automation
-  * [IFTTT.com](IFTTT){:target="_blank"}
+  * [IFTTT](https://ifttt.com/){:target="_blank"}
 * Regular Expression
   * [Regex101](http://regex101.com/){:target="_blank"}
 * Active Directory
