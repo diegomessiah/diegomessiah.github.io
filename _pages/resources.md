@@ -6,7 +6,7 @@ toc: true
 toc_sticky: true
 ---
 
-**Last update:** 04/09/2020 - Update markdown :thumbsup:
+**Last update:** 12/05/2020 - Update markdown :thumbsup:
 {: .notice--info}
 
 # PowerShell
