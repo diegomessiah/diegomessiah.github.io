@@ -1,7 +1,7 @@
 ---
-title: "Scripts/Projects"
+title: "Projects"
 layout: single
-permalink: /p/scripts.html
+permalink: /p/projects.html
 toc: true
 ---
 
