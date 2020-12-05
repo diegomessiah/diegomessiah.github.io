@@ -55,8 +55,7 @@ toc_sticky: true
 ## Useful script & tools
 
   * [Show-Object](http://www.powershellcookbook.com/recipe/bpqU/program-interactively-view-and-explore-objects){:target="_blank"} (Lee Holmes)
-  * [Start-Demo](http://blogs.msdn.com/b/powershell/archive/2007/06/03/new-and-improved-start-demo.aspx){:target="_blank"} (very useful for presentation)
-  * [Monitor Active Directory Groups](http://www.lazywinadmin.com/p/monitor-active-directory-group.html){:target="_blank"}
+  * [Monitor Active Directory Groups](https://github.com/lazywinadmin/Monitor-ADGroupMembership){:target="_blank"}
   * [PowerEvents](http://powerevents.codeplex.com/){:target="_blank"}
   * [PoshEventUI](https://posheventui.codeplex.com/){:target="_blank"}
   * [PoshPAIG](http://poshpaig.codeplex.com/){:target="_blank"}
