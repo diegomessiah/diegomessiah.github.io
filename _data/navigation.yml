@@ -1,21 +1,9 @@
 # main links
 main:
-#  - title: "Quick-Start Guide"
-#    url: https://mmistakes.github.io/minimal-mistakes/resources/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
-  #- title: "Blog"
-  #  url: /
-#  - title: "Tags"
-#    url: /tags
-  - title: "Projects/Scripts"
+  - title: "Projects"
     url: /p/scripts.html
+  - title: "Malware Analysis"
+    url: /p/malware_analysis.html
   - title: "Resources"
     url: /p/links.html
   - title: "Archive"
@@ -24,12 +12,6 @@ main:
     url: /about.html
   - title: "Disclaimer"
     url: /disclaimer.html
-#  - title: "Categories"
-#    url: /categories/
-#  - title: "Collections"
-#    url: /collection-archive/
-#  - title: "Resources"
-#    url: /resources/powershell/resources
 
 resources:
   - title: PowerShell
