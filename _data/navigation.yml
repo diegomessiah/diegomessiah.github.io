@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Projects"
-    url: /p/scripts.html
+    url: /p/projects.html
   - title: "Malware Analysis"
     url: /p/Malware_Analysis.html
   - title: "Resources"
@@ -37,7 +37,7 @@ resources:
         url: /resources/jekyll/jemoji
 
 
-projects:
+Projects:
   - title: Module
     children:
       - title: "AdsiPS"
